@@ -129,11 +129,11 @@ export default function LoginPage() {
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="hospital">Hospital</Label>
+          <Label htmlFor="hospital">Hospital o Clinica</Label>
           <div className="relative">
             <Input
               id="hospital"
-              placeholder="Buscar hospital..."
+              placeholder="Buscar hospital o clinica..."
               value={hospitalQuery}
               onChange={(event) => {
                 setHospitalQuery(event.target.value);
