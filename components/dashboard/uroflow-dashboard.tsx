@@ -1041,7 +1041,7 @@ export function UroflowDashboard() {
             >
               <p>
                 {isMounted
-                  ? "Selecciona un paciente para ver las pestañas."
+                  ? "Seleccione un paciente."
                   : "Cargando pestañas..."}
               </p>
             </div>
